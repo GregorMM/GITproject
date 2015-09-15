@@ -1,0 +1,19 @@
+#Ugani stevilo by GM
+def restart():
+    while True:
+        stevilo = raw_input("Ugani stevilo \nVpisi vrednost: ")
+        pravo = "17"
+        if stevilo == pravo:
+            print "Bravoooo"
+        else:
+            print "Napacno stevilo"
+            answer=raw_input('Ponovim? Da/Ne ')
+            if answer != 'Da':
+                print "Goodbye"
+                exit()
+
+restart()
+
+
+
+

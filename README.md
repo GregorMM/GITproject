@@ -1,1 +1,1 @@
-#To je nov project
+SmartNinja projects
